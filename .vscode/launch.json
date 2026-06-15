@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:demo-llm}",
+            "name": "Debug demo-llm",
+            "target": "demo-llm",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug demo-llm"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:demo-llm}",
+            "name": "Release demo-llm",
+            "target": "demo-llm",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release demo-llm"
+        }
+    ]
+}
