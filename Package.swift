@@ -7,7 +7,7 @@ let package = Package(
     name: "mlx-swift-lm-demo",
     platforms: [.macOS(.v14)],
     dependencies: [
-        .package(url: "https://github.com/wendylabsinc/mlx-swift-lm", revision: "7a9027a99a72db28e3c3fb59832530040ca0b1c2"),
+        .package(url: "https://github.com/wendylabsinc/mlx-swift-lm", branch: "gab/test-jetson-lm"),
         .package(url: "https://github.com/huggingface/swift-huggingface", from: "0.9.0"),
         .package(url: "https://github.com/huggingface/swift-transformers", from: "1.3.0"),
     ],
