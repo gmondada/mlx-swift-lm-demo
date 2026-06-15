@@ -4,21 +4,21 @@
             "type": "swift",
             "request": "launch",
             "args": [],
-            "cwd": "${workspaceFolder:demo-llm}",
-            "name": "Debug demo-llm",
-            "target": "demo-llm",
+            "cwd": "${workspaceFolder:mlx-swift-lm-demo}",
+            "name": "Debug mlx-swift-lm-demo",
+            "target": "mlx-swift-lm-demo",
             "configuration": "debug",
-            "preLaunchTask": "swift: Build Debug demo-llm"
+            "preLaunchTask": "swift: Build Debug mlx-swift-lm-demo"
         },
         {
             "type": "swift",
             "request": "launch",
             "args": [],
-            "cwd": "${workspaceFolder:demo-llm}",
-            "name": "Release demo-llm",
-            "target": "demo-llm",
+            "cwd": "${workspaceFolder:mlx-swift-lm-demo}",
+            "name": "Release mlx-swift-lm-demo",
+            "target": "mlx-swift-lm-demo",
             "configuration": "release",
-            "preLaunchTask": "swift: Build Release demo-llm"
+            "preLaunchTask": "swift: Build Release mlx-swift-lm-demo"
         }
     ]
 }

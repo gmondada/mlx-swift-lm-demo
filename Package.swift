@@ -23,7 +23,7 @@ let package = Package(
             ]
         ),
         .testTarget(
-            name: "mlx-swift-lm-demoTests",
+            name: "mlx-swift-lm-demo-tests",
             dependencies: ["mlx-swift-lm-demo"]
         ),
     ],
