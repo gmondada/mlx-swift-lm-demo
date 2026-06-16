@@ -1,5 +1,5 @@
 {
-  "originHash" : "6884da2e58a673c16576ad8ac8259ff6824edfd6a01d40803ab390417704c547",
+  "originHash" : "ff3e3a2093f6faf9fe11818743967f1f6836168359b030e028c99de99389a440",
   "pins" : [
     {
       "identity" : "eventsource",
@@ -13,10 +13,10 @@
     {
       "identity" : "mlx-swift",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/ml-explore/mlx-swift",
+      "location" : "https://github.com/wendylabsinc/mlx-swift",
       "state" : {
-        "revision" : "dc43e62d7055353c7f99fa071a4e71d29dfddc44",
-        "version" : "0.31.4"
+        "branch" : "gab/demo-jetson-lm-v2",
+        "revision" : "fb6821cb002fed5a45d081d71a946b4c34735aa4"
       }
     },
     {
@@ -24,7 +24,17 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/wendylabsinc/mlx-swift-lm",
       "state" : {
-        "revision" : "7a9027a99a72db28e3c3fb59832530040ca0b1c2"
+        "branch" : "gab/demo-jetson-lm-v2",
+        "revision" : "3f40f970251e078b55c219a1e563e7db7f1a4a65"
+      }
+    },
+    {
+      "identity" : "swift-argument-parser",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-argument-parser",
+      "state" : {
+        "revision" : "6a52f3251125d74daf04fcbd5e6f08a75d074382",
+        "version" : "1.8.2"
       }
     },
     {
